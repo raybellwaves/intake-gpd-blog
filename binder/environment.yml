@@ -1,10 +1,9 @@
-name: dask-binder-template
+name: intake-gpd-blog
 channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - dask=2021.03.0
+  - intake_geopandas
   # JupyterLab extensions
-  - jupyterlab>=3
+  - jupyterlab
   - dask-labextension
-  - ipywidgets
