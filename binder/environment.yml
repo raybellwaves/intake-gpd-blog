@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - intake_geopandas
+  - intake-geopandas
   - intake-pattern-catalog
   - pyarrow
   - ruamel.yaml
